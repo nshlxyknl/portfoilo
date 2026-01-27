@@ -1,5 +1,5 @@
-# 👨‍💻 Nischal Kahnala | nshlxyknl
-## Full-Stack Developer from Kathmandu, Nepal
+# 👨‍💻 Nischal Khanal | nshlxyknl
+## Full-Stack Developer from Pokhara, Nepal
 
 ---
 
