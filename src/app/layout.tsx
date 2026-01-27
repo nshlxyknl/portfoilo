@@ -1,6 +1,7 @@
 
 import { ThemeProvider } from "@/context/ThemeProvider";
 import "./globals.css";
+import { Navbar } from "@/components/compo/Navbar";
 
 
 export default function RootLayout({
@@ -12,7 +13,8 @@ export default function RootLayout({
     <html lang="en">
       <body  >
         <ThemeProvider>
-          
+                <Navbar />
+
            {children}
         </ThemeProvider>
        
