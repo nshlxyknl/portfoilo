@@ -10,15 +10,16 @@ export const Navbar = () => {
     const {isDark, toggleDark}= useTheme();
 
 
-  return (
-    <div className="fixed top-0 left-0 right-0 z-50 bg-white flex h-25 w-full items-center justify-between px-10 dark:bg-black">
-        <div className=' flex  justify-center items-center h-11 w-11 rounded-full bg-black dark:bg-amber-50' onClick={toggleDark}>
+  return (<>
+    <div className=' fixed top-4 left-8 z-50 flex  justify-center items-center h-16 w-16 rounded-full bg-black dark:bg-amber-50' onClick={toggleDark}>
                                 {
                                     isDark ?
-                                    <Sun color="#000000" strokeWidth={2.75} /> :
-                                <MoonStarIcon color="#ffffff" strokeWidth={2.5}/> 
+                                    <Sun color="#000000" strokeWidth={2} size={45}/> :
+                                <MoonStarIcon color="#ffffff" strokeWidth={2} size={45}/> 
                                 }
                                 </div>
+    <div className="fixed top-4 left-120 z-45 bg-black text-white flex h-20 w-140 rounded-4xl items-center justify-center px-10 dark:bg-white dark:text-black">
+        
         <div className="flex gap-6 text-2xl font-serif ">
            <Link href="#home">Home</Link>
            <Link href="#about">About</Link>
@@ -27,6 +28,7 @@ export const Navbar = () => {
            <Link href="#contact">Contact</Link>
         </div>
         </div>
+        </>
   )
 }
 
