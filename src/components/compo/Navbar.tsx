@@ -11,7 +11,7 @@ export const Navbar = () => {
 
 
   return (<>
-    <div className=' fixed top-4 left-8 z-50 flex  justify-center items-center h-16 w-16 rounded-full bg-black dark:bg-amber-50' onClick={toggleDark}>
+    <div className=' fixed bottom-4 left-8 z-50 flex  justify-center items-center h-16 w-16 rounded-full bg-black dark:bg-amber-50' onClick={toggleDark}>
                                 {
                                     isDark ?
                                     <Sun color="#000000" strokeWidth={2} size={45}/> :
