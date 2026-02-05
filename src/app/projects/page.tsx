@@ -32,7 +32,7 @@ const projects: Projects[]=[
 
 
   return (
-    <div id="projects" className="pt-50">
+    <div id="projects" className="pt-40">
             <div  className="h-full flex ">
 
         <div className="w-175 mt-30 pl-30">
@@ -46,7 +46,7 @@ const projects: Projects[]=[
         </div>
 
 </div>
-              <div className="h-px scale-y-[0.3] w-350] mt-30 mx-auto bg-black dark:bg-blue-200"></div>
+              <div className="h-px scale-y-[0.3] w-350] mt-25 mx-auto bg-black dark:bg-blue-200"></div>
 </div>
   )
 }

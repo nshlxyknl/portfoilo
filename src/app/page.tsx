@@ -1,4 +1,5 @@
 
+import { Toaster } from "sonner";
 import  AboutPage  from "./about/page";
 import  ContactPage  from "./contact/page";
 import HomePage from "./home/page";
@@ -13,6 +14,8 @@ export default function Home() {
       <Skills/>
       <ProjectPage />
       <ContactPage />
+               <Toaster position="top-right" />
+
     </div>
   );
 }

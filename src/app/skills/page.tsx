@@ -65,7 +65,7 @@ const Skills = () => {
 
 
     return (
-       <div id="skills" className=" pt-30">
+       <div id="skills" className=" pt-40">
     {/* <div className="flex flex-col justify-center items-center min-h-screen  max-w-5xl mx-auto p-4 md:p-8" > */}
     <div>
       <div className="h-full flex ">
@@ -83,7 +83,7 @@ const Skills = () => {
       </div>
       </div>
     </div>
-                    <div className="h-px scale-y-[0.3] w-350 mt-30 mx-auto bg-black dark:bg-blue-200"></div>
+                    <div className="h-px scale-y-[0.3] w-350 mt-25 mx-auto bg-black dark:bg-blue-200"></div>
                     </div>
     )
 }
