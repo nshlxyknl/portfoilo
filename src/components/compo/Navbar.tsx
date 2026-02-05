@@ -44,32 +44,32 @@ export const Navbar = () => {
                                 <MoonStarIcon color="#ffffff" strokeWidth={2} size={45}/> 
                                 }
                                 </div>
-    <div className="fixed top-4 left-120 z-45 bg-black text-white flex h-20 w-140 rounded-4xl items-center justify-center px-10 dark:bg-white dark:text-black">
+    <div className="fixed top-4 left-120 z-45 bg-black text-white flex h-20 w-140 rounded-4xl items-center justify-center dark:bg-white dark:text-black">
         
         <div className="flex gap-6 text-2xl font-serif ">
            <Link href="#home"  className={` transition ${
               isActive("home")
-                ? "bg-black text-white rounded dark:bg-white dark:text-black"
+                ? "bg-black  text-white rounded"
                 : ""
             }`}>Home</Link>
            <Link href="#about" className={` transition ${
               isActive("about")
-                ? "bg-black text-white  rounded dark:bg-white dark:text-black"
+                ? "bg-black text-white  rounded "
                 : ""
             }`}>About</Link>
            <Link href="#skills" className={` transition ${
               isActive("skills")
-                ? "bg-black text-white  rounded dark:bg-white dark:text-black"
+                ? "bg-black text-white  rounded "
                 : ""
             }`}>Skills</Link>
            <Link href="#projects" className={` transition ${
               isActive("projects")
-                ? "bg-black text-white  rounded dark:bg-white dark:text-black"
+                ? "bg-black text-white  rounded "
                 : ""
             }`}>Projects</Link>
            <Link href="#contact" className={` transition ${
               isActive("contact")
-                ? "bg-black text-white  rounded dark:bg-white dark:text-black"
+                ? "bg-black text-white  rounded "
                 : ""
             }`}>Contact</Link>
         </div>
