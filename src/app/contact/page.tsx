@@ -52,7 +52,7 @@ const ContactPage = () => {
 
   return (
 
-    <div id="contact" className="pt-35">
+    <div id="contact" className="pt-40">
       <div className="h-full flex  gap-50 ">
 
         <div className="w-175 mt-10 pl-30">
@@ -106,7 +106,7 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
-      <div className="h-px scale-y-[0.3] w-350 mt-40 mx-auto bg-black dark:bg-blue-200"></div>
+      <div className="h-px scale-y-[0.3] w-350 mt-30 mb-10 mx-auto bg-black dark:bg-blue-200"></div>
 
     </div>
 

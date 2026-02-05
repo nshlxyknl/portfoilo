@@ -1,5 +1,4 @@
 
-import Image from "next/image";
 import { RiNextjsFill } from "react-icons/ri";
 import {
   FaReact,
@@ -22,7 +21,7 @@ const Skills = () => {
       hover: "#78d5d0",
     },
     {
-      title: "React & ReactNative",
+      title: "React",
       svg: <FaReact className="h-12 w-12" />,
       hover: "#60C7DE",
     },
