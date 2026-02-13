@@ -49,27 +49,27 @@ export const Navbar = () => {
         <div className="flex gap-6 text-2xl font-serif ">
            <Link href="#home"  className={` transition ${
               isActive("home")
-                ? "bg-black  text-white rounded"
+                ? "bg-white text-black dark:bg-black dark:text-white rounded "
                 : ""
             }`}>Home</Link>
            <Link href="#about" className={` transition ${
               isActive("about")
-                ? "bg-black text-white  rounded "
+                ? "bg-white text-black dark:bg-black dark:text-white rounded "
                 : ""
             }`}>About</Link>
            <Link href="#skills" className={` transition ${
               isActive("skills")
-                ? "bg-black text-white  rounded "
+                ? "bg-white text-black dark:bg-black dark:text-white rounded "
                 : ""
             }`}>Skills</Link>
            <Link href="#projects" className={` transition ${
               isActive("projects")
-                ? "bg-black text-white  rounded "
+                ? "bg-white text-black dark:bg-black dark:text-white rounded "
                 : ""
             }`}>Projects</Link>
            <Link href="#contact" className={` transition ${
               isActive("contact")
-                ? "bg-black text-white  rounded "
+                ? "bg-white text-black dark:bg-black dark:text-white rounded "
                 : ""
             }`}>Contact</Link>
         </div>

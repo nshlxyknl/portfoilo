@@ -6,7 +6,7 @@ import { Metadata } from "next";
 
 
 export const metadata: Metadata = {
-  title: "nischal khanal",
+  title: "nis",
   icons: {
     icon: "/2.png", 
   },
@@ -19,9 +19,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-       <head>
-        <link rel="icon" href="/2.png" type="image/png" />
-      </head>
       <body  >
         <ThemeProvider>
                 <Navbar />

@@ -67,7 +67,7 @@ export const Card = ({
   return (
     <div
       className={cn(
-        "rounded-2xl h-35 w-full p-4 overflow-hidden bg-[#f0eded] dark:bg-[#13182F] border border-transparent dark:border-white/20 dark:group-hover:border-slate-700 relative z-20 transition-colors duration-300",
+        "rounded-2xl h-35 w-full p-4 overflow-hidden bg-[#f0eded] dark:bg-[#00030d] border border-transparent dark:border-white/20 dark:group-hover:border-slate-700 relative z-20 transition-colors duration-300",
         className
       )}
       style={{ color: isHovered ? hover : undefined }}
