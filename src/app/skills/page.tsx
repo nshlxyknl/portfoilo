@@ -2,21 +2,19 @@
 import { RiNextjsFill } from "react-icons/ri";
 import {
   FaReact,
-  FaFigma,
   FaNodeJs,
-  FaCreativeCommonsPdAlt,
+  FaLinux,
 } from "react-icons/fa";
-import { SiMongodb, SiNestjs, SiPostgresql, SiPrisma } from "react-icons/si";
-import { GrMysql } from "react-icons/gr";
+import { SiMongodb, SiNestjs, SiPrisma } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiCplusplus, SiTypescript } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
 import { HoverEffect } from "@/components/ui/card-hover-effect";
 import { BiLogoPostgresql } from "react-icons/bi";
 
 
 const Skills = () => {
 
-  const projects = [
+  const skills = [
     {
       title: "Next.js",
       svg: <RiNextjsFill className="h-12 w-12" />,
@@ -28,32 +26,32 @@ const Skills = () => {
       hover: "#60C7DE",
     },
     {
-      title: "Nest.js",
-      svg: <SiNestjs className="h-12 w-12" />,
-      hover: "#E92853",
-    },
-    {
-      title: "Javascript",
-      svg: <IoLogoJavascript className="h-12 w-12" />,
-      hover: "#ebd744",
-    },
-    {
-      title: "Typescript",
-      svg: <SiTypescript className="h-12 w-12" />,
-      hover: "#017acb",
-    },
-    {
-      title: "NodeJS",
-      svg: <FaNodeJs className="h-12 w-12" />,
-      hover: "#8cc84b",
-    },
-    {
-      title: "PostgreSQL",
-      svg: <BiLogoPostgresql className = "h-12 w-12" />,
-    hover: "#0064a5",
+      title: "Linux",
+      svg: <FaLinux className = "h-12 w-12" />,
+    hover: "#ffff00",
     },
   {
-    title: "MongoDB",
+    title: "Javascript",
+    svg: <IoLogoJavascript className="h-12 w-12" />,
+      hover: "#ebd744",
+    },
+{
+  title: "Typescript",
+    svg: <SiTypescript className="h-12 w-12" />,
+      hover: "#017acb",
+    },
+{
+  title: "NodeJS",
+    svg: <FaNodeJs className="h-12 w-12" />,
+      hover: "#8cc84b",
+    },
+{
+  title: "PostgreSQL",
+    svg: <BiLogoPostgresql className="h-12 w-12" />,
+      hover: "#0064a5",
+    },
+{
+  title: "MongoDB",
     svg: <SiMongodb className="h-12 w-12" />,
       hover: "#10AA50",
     },
@@ -73,7 +71,7 @@ return (
           <span className="text-8xl font-serif">Skills</span> <br></br><br></br>
         </div>
         <div className="w-[70%] mr-10">
-          <HoverEffect items={projects} />
+          <HoverEffect items={skills} />
         </div>
       </div>
     </div>
@@ -81,7 +79,5 @@ return (
   </div>
 )
 }
-
-
 
 export default Skills

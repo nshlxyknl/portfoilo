@@ -6,15 +6,9 @@ import book from "../../../public/book.png"
 import { StaticImageData } from "next/image"
 
 
-interface Projects{
-    title: string,
-    gitlink:string,
-    url:string,
-    image: StaticImageData,
-}
 
 const ProjectPage = () => {
-const projects: Projects[]=[
+const projects=[
     {
       title: "Hotel Booking System",
       gitlink: "https://github.com/nshlxyknl/RoomBookingSystem",

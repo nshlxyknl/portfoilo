@@ -4,17 +4,21 @@ import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
 
-export const HoverEffect = ({
-  items,
-  className,
-}: {
+interface IHover{
   items: {
     title: string;
     svg: any;
     hover: string;
   }[];
   className?: string;
-}) => {
+}
+
+
+export const HoverEffect = ({
+  items,
+  className,
+}: IHover) => {
+  
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
