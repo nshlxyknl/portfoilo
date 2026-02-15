@@ -6,7 +6,7 @@ import { Badge } from '@/components/ui/badge'
  const HomePage = () => {
   return (
     <div id='home' className='h-screen pt-25'>
-    <div className=" flex mt-25 md:flex-col">
+    <div className=" flex mt-25 ">
 <div className="w-1/2 ml-20 pt-15 ">
 <span className="font-serif text-3xl">Hey, I am</span> 
 <Badge className='ml-7 w-45 h-10 z-10 font-light text-xl '>
