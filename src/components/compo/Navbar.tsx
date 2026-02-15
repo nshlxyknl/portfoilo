@@ -37,14 +37,14 @@ export const Navbar = () => {
 
 
   return (<>
-    <div className=' fixed bottom-4 left-8 z-50 flex  justify-center items-center h-16 w-16 rounded-full bg-black dark:bg-amber-50' onClick={toggleDark}>
+    <div className=' fixed bottom-4 left-8  z-50 flex  justify-center items-center cursor-pointer h-16 w-16 rounded-full bg-black dark:bg-amber-50' onClick={toggleDark}>
                                 {
                                     isDark ?
                                     <Sun color="#000000" strokeWidth={2} size={45}/> :
                                 <MoonStarIcon color="#ffffff" strokeWidth={2} size={45}/> 
                                 }
                                 </div>
-    <div className="fixed top-4 left-120 z-45 bg-black text-white flex h-20 w-140 rounded-4xl items-center justify-center dark:bg-white dark:text-black">
+    <div className="fixed top-4 left-1/2 -translate-x-1/2 z-45 bg-black text-white flex h-20 w-140 rounded-4xl items-center justify-center dark:bg-white dark:text-black">
         
         <div className="flex gap-6 text-2xl font-serif ">
            <Link href="#home"  className={` transition ${

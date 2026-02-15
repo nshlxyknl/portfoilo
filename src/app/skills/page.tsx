@@ -5,7 +5,7 @@ import {
   FaNodeJs,
   FaLinux,
 } from "react-icons/fa";
-import { SiMongodb, SiNestjs, SiPrisma } from "react-icons/si";
+import { SiMongodb, SiPrisma } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTypescript } from "react-icons/si";
 import { HoverEffect } from "@/components/ui/card-hover-effect";
