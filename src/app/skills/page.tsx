@@ -64,18 +64,18 @@ const Skills = () => {
 
 
 return (
-  <div id="skills" className=" pt-40">
+  <div id="skills" className=" pt-30">
     <div>
       <div className="lg:h-full flex flex-col lg:flex-row ">
-        <div className="lg:w-175 mt-50 lg:pl-40 ml-60 lg:ml-0 ">
+        <div className="lg:w-175 lg:mt-50 lg:pl-40 ml-30 lg:ml-0 ">
           <span className="text-8xl font-serif">Skills</span> <br></br><br></br>
         </div>
-        <div className="lg:w-[70%] w-full mx-auto lg:mr-10 text-center lg:text-right ">
+        <div className="lg:w-[70%] w-full mx-auto lg:mr-10 ml-15 lg:ml-0 lg:text-right ">
           <HoverEffect items={skills} />
         </div>
       </div>
     </div>
-    <div className="h-px scale-y-[0.3] lg:w-350 mt-25 mx-auto bg-black dark:bg-blue-200"></div>
+    <div className="h-px scale-y-[0.3] lg:w-350 w-150 mt-30 mx-auto bg-black dark:bg-blue-200"></div>
   </div>
 )
 }

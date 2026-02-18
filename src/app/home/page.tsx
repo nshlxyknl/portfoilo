@@ -25,7 +25,7 @@ import { Badge } from '@/components/ui/badge'
 </div>
 
     </div>
-            <div  className="h-px scale-y-[0.2] lg:w-350 mt-40 mx-auto bg-black dark:bg-blue-200"></div>
+            <div  className="h-px scale-y-[0.2] lg:w-350 w-150 mt-40 mx-auto bg-black dark:bg-blue-200"></div>
     </div>
   )
 }
