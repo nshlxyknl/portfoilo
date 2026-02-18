@@ -23,7 +23,7 @@ const ProjectCard = ({items}: ICardProps) => {
  const  {isDark} = useTheme()
 
   return (
-    <div>
+    <div className="">
       <div className="h-60 w-80 rounded-2xl overflow-hidden" >
 <Image 
           src={items.image}
@@ -31,11 +31,12 @@ const ProjectCard = ({items}: ICardProps) => {
           className="w-full h-full object-fit"
         />
 </div>
+<div>
        <p className="text-center text-xl font-semibold mt-4">
         {items.title}
       </p>
 
-      <div className="flex justify-center gap-12 p-6 ">
+      <div className="flex justify-center  gap-12 p-6 ">
                   <Link href={items.gitlink} target="_blank">
         <FaGithub size={40} className={`cursor-pointer transition-colors ${
     isDark 
@@ -53,6 +54,7 @@ const ProjectCard = ({items}: ICardProps) => {
   }`}/>
             </Link>
 
+    </div>
     </div>
     </div>
   )

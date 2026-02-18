@@ -53,13 +53,13 @@ const ContactPage = () => {
   return (
 
     <div id="contact" className="pt-40">
-      <div className="h-full flex  gap-50 ">
+      <div className="h-full flex  lg:ml-0 lg:flex-row flex-col gap-20 lg:gap-50 ">
 
-        <div className="w-175 mt-10 pl-30">
-          <span className="text-8xl font-serif">Contact Me</span> <br></br>
+        <div className=" mt-10 lg:pl-30 text-center lg:text-start">
+          <span className="text-8xl whitespace-nowrap font-serif">Contact Me</span> <br></br>
         </div>
 
-        <div className="flex flex-col gap-30">
+        <div className="flex flex-col justify-center items-center gap-30">
           <form onSubmit={handlesubmit}>
             <div className="font-serif  flex flex-col gap-3">
               <Input className="w-40 h-12" placeholder="Name" type="text" value={name} onChange={(e) => setName(e.target.value)} />
@@ -106,7 +106,7 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
-      <div className="h-px scale-y-[0.3] w-350 mt-30 mb-10 mx-auto bg-black dark:bg-blue-200"></div>
+      <div className="h-px scale-y-[0.3] lg:w-350 mt-30 mb-10 mx-auto bg-black dark:bg-blue-200"></div>
 
     </div>
 
